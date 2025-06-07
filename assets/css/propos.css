@@ -1,0 +1,136 @@
+#main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 3em;
+    position: relative;
+}
+
+#main h2 {
+    color: var(--black);
+}
+
+#text {
+
+}
+
+#main img  {
+    max-height: 90vh;
+    right: 0;
+    top: 0;
+}
+
+#main .text {
+    padding: 2rem;
+}
+#main h1 {
+    border: 10px solid var(--pink);
+    border-radius: 10px;
+    filter: drop-shadow(0 0 8px var(--pink));
+    padding: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    #main {
+        text-align: center;
+        flex-direction: column;
+    }
+    #main img {
+        border-radius: 10000px 10000px 0 0;
+    }
+}
+
+#proposAcceuil {
+    background: var(--secondary);
+    color: var(--white);
+}
+
+
+#section2 {
+    background: var(--pink);
+}
+
+.part_desc {
+    padding: 2rem;
+
+}
+
+.propos_desc {
+    margin: 1ch 0;
+}
+
+.div_img {
+
+    padding: 25% 20% ;
+    /*height: 50%;*/
+}
+
+.part1 .div_img {
+    background: url("/assets/images/china_enter.jpg") no-repeat center center/cover;
+}
+.part2 .div_img {
+    background: url("/assets/images/interrier_tradi.JPG") no-repeat center center/cover;
+}
+.part3 .div_img {
+    background: url("/assets/images/plage.JPG") no-repeat center center/cover;
+}
+.part4 .div_img {
+    background: url("/assets/images/Turkiye.JPG") no-repeat center center/cover;
+}
+
+.part {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.part img {
+    max-height: 50px;
+    max-width: 50px;
+}
+.part .pngLogo img{
+    max-height: 35px;
+    translate: 0 8px;
+    margin-bottom: 15px;
+}
+.part .phpLogo img {
+    margin-bottom: 10px;
+}
+.part .span-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: .5em;
+}
+.part .d-flex {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2ch 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.conteneur {
+    background: var(--white);
+    border-left: 8px solid var(--secondary);
+    border-right: 8px solid var(--secondary);
+    border-bottom: 8px solid var(--secondary);
+}
+
+@media screen and (max-width: 1020px) {
+    #section2 {
+        text-align: justify;
+    }
+    .part {
+        flex-direction: column;
+    }
+    .part .d-flex {
+        justify-content: center;
+    }
+    .div_img {
+
+        padding: 5rem 100% ;
+        /*height: 50%;*/
+    }
+}

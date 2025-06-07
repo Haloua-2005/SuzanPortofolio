@@ -1,0 +1,101 @@
+#main {
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    text-align: center;
+    padding: 2rem;
+    font-size: 2em;
+    color: var(--white);
+    filter: drop-shadow(var(--black) 1px 1px 5px);
+    /*filter: brightness(10);*/
+    /*color: var(--black);*/
+}
+
+#homeAcceuil {
+    background: url("/assets/images/background.jpg") no-repeat center center/cover;
+}
+
+
+.card {
+    max-width: 400px;
+    background: var(--pink);
+    padding: 2rem 1.25rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.25em;
+}
+
+.card * {
+    margin: .5em 0;
+}
+
+
+.link {
+    color: var(--white);
+    background: var(--secondary);
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0.5em .75em;
+    display: block;
+    width: fit-content;
+    transition: opacity ease 100ms;
+}
+
+.link:hover {
+    opacity: 0.75;
+}
+
+#homeTravel {
+    background: var(--pink);
+    padding: 1rem 0;
+}
+
+#homeTravel a {
+    text-decoration: none;
+    color: var(--black);
+    border-radius: 8px;
+    border: 2px solid var(--black);
+    font-size: 2em;
+    padding: .25em 1em;
+    width: 30%;
+    text-align: center;
+    transition: all ease 100ms;
+}
+
+#homeTravel a:hover {
+    background: var(--black);
+    color: var(--white);
+}
+
+#homeTravel .d-flex {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+}
+
+
+#homeTravel h1 {
+    font-size: 4em;
+
+}
+
+#homeTravel .img {
+    background: url('/assets/images/IMG_8200 2.jpg') no-repeat center center/cover;
+    padding: 15rem 0;
+    border: var(--white) 15px solid;
+}
+
+@media screen and (max-width: 768px) {
+    #homeTravel .d-flex {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #homeTravel a {
+        width: 100%;
+        margin: .5rem 0;
+    }
+}
