@@ -29,6 +29,15 @@
     filter: drop-shadow(0 0 8px var(--pink));
     padding: 1rem;
 }
+#proposAcceuil {
+    background: linear-gradient(to top right, var(--secondary), var(--pink));
+    color: var(--white);
+}
+
+#section2 {
+    background: var(--pink);
+    padding: 1rem 0;
+}
 
 @media screen and (max-width: 768px) {
     #main {
@@ -38,17 +47,18 @@
     #main img {
         border-radius: 10000px 10000px 0 0;
     }
+    #proposAcceuil {
+        background: linear-gradient(to bottom, var(--secondary), var(--pink));
+    }
+    #section2 {
+        padding: 0;
+    }
+
 }
 
-#proposAcceuil {
-    background: var(--secondary);
-    color: var(--white);
-}
 
 
-#section2 {
-    background: var(--pink);
-}
+
 
 .part_desc {
     padding: 2rem;
@@ -113,9 +123,9 @@
 
 .conteneur {
     background: var(--white);
-    border-left: 8px solid var(--secondary);
-    border-right: 8px solid var(--secondary);
-    border-bottom: 8px solid var(--secondary);
+    border: 8px solid var(--secondary);
+    /*border-right: 8px solid var(--secondary);*/
+    /*border-bottom: 8px solid var(--secondary);*/
 }
 
 @media screen and (max-width: 1020px) {
