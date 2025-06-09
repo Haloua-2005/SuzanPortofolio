@@ -76,16 +76,16 @@
 }
 
 .part1 .div_img {
-    background: url("/assets/images/china_enter.jpg") no-repeat center center/cover;
+    background: url("assets/images/china_enter.jpg") no-repeat center center/cover;
 }
 .part2 .div_img {
-    background: url("/assets/images/interrier_tradi.JPG") no-repeat center center/cover;
+    background: url("assets/images/interrier_tradi.JPG") no-repeat center center/cover;
 }
 .part3 .div_img {
-    background: url("/assets/images/plage.JPG") no-repeat center center/cover;
+    background: url("assets/images/plage.JPG") no-repeat center center/cover;
 }
 .part4 .div_img {
-    background: url("/assets/images/Turkiye.JPG") no-repeat center center/cover;
+    background: url("assets/images/Turkiye.JPG") no-repeat center center/cover;
 }
 
 .part {
